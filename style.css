@@ -1,3 +1,9 @@
+html {
+/* background-color: #393f4d; */
+} 
+
+
+
 * {
   font-family: 'Teko',
   sans-serif;
@@ -9,15 +15,15 @@
 main {
   display: block;
   text-align: center;
-  
+  /* background-color: #393f4d; */
 }
 
 body {
   font-family: 'Teko',
   sans-serif;
-  background-image: url("https://i.imgur.com/0NspiZu.jpg");
+  background-image: url("https://i.imgur.com/0NspiZu.jpg?1");
   background-position: center;
-  background-color: white;
+  /* background-color: white; */
   max-width: auto;
 }
 
@@ -46,7 +52,7 @@ body {
   border-top: 0px;
   margin: 50px 125px 0 125px;
   background-color: rgba(255, 255, 255, 0.85);
-  max-width: 683px;
+  max-width: 690px;
   padding: 30px 20px;
   margin: 0 auto;
   margin-top: 75px;
@@ -70,17 +76,26 @@ p {
 
 img {
   margin-bottom: 20px;
+  border-radius: 100px;
 }
 
-.container-flow, 
-p {
-  max-width: 683px;
-  padding: 10px 20px;
+.container-flow {
+  max-width: 700px;
+  padding: 10px 10px;
   margin: 0 auto;
   /* margin-top: 75px; */
   font-size: 20px;
   line-height: 1.5;
   color: black;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+  max-width: 85%;
+  padding: 10px 10px;
+  margin: 0 auto;
 }
 
 button {
@@ -95,8 +110,7 @@ button {
   color: white;
   font: inherit;
   font-size: 111%;
-  transition-property: color,
-  background;
+  transition-property: color;
   transition-duration: 0.35s;
   transition-timing-function: ease-in-out;
   border: 2px solid black;
@@ -119,12 +133,14 @@ h1 {
   color: #feda6a;
   text-shadow: 2px 2px #000000;
   font-weight: bold;
-  margin: 5%;  
+  margin: 10px 10px 30px 10px;  
+  
 }
 
 h2 {
   text-shadow: 1px 1px #00000065;
   color: black;
+  margin: 10px
   /* padding-top: 15px; */
 
 }
@@ -157,10 +173,11 @@ h4 {
 }
 
 #about-me, #Skills {
+  display: block;
   text-align: center;
   border-left: 10px;
   border-right: 10px;
-  margin: auto;
+  margin-top: 20px;
   margin-bottom: 10px;
   /* padding: 20px; */
 }
@@ -171,19 +188,12 @@ display: flex-block;
 
 }
 
-.quizApp-iframe iframe{
-align-content: center;
-margin-bottom: 10px;
-width: 98%;
-max-width: 822px;
-
-}
-
 .BookmarkApp-iframe iframe{
 align-content: center;
 margin-bottom: 10px;
 width: 98%;
 max-width: 822px;
+margin-top: 10px;
 
 }
 
