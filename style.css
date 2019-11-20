@@ -2,14 +2,12 @@
   font-family: 'Teko',
   sans-serif;
   
-
-  
 }
 
 main {
   display: block;
   text-align: center;
-  
+  /* background-color: #393f4d; */
 }
 
 body {
@@ -17,8 +15,8 @@ body {
   sans-serif;
   background-image: url("https://i.imgur.com/0NspiZu.jpg?1");
   background-position: center;
-  background-color: white;
   max-width: auto;
+  text-align: center;
 }
 
 .menu-container {
@@ -46,17 +44,20 @@ body {
   border-top: 0px;
   margin: 50px 125px 0 125px;
   background-color: rgba(255, 255, 255, 0.85);
-  max-width: 683px;
+  max-width: 690px;
   padding: 30px 20px;
   margin: 0 auto;
   margin-top: 75px;
   font-size: 20px;
   line-height: 1.5;
   color: white;
-  /* text-shadow: 2px 2px #000000; */
+ 
   
 }
 
+a {
+  text-decoration: none;
+}
 
 p {
   display: inherit;
@@ -68,19 +69,39 @@ p {
   /* text-shadow: 2px 2px #000000; */
 }
 
-img {
-  margin-bottom: 20px;
+i {
+  color: black;
+  width: 40px;
+  font-size: large;
 }
 
-.container-flow, 
-p {
-  max-width: 683px;
-  padding: 10px 20px;
+img {
+  
+  margin-bottom: 20px;
+  border-radius: 100px;
+  
+}
+
+ul.contact-info {
+  margin-bottom: 25px;
+}
+.container-flow {
+  max-width: 700px;
+  padding: 10px 10px;
   margin: 0 auto;
   /* margin-top: 75px; */
   font-size: 20px;
   line-height: 1.5;
   color: black;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+  max-width: 85%;
+  padding: 10px 10px;
+  margin: 0 auto;
 }
 
 button {
@@ -95,8 +116,7 @@ button {
   color: white;
   font: inherit;
   font-size: 111%;
-  transition-property: color,
-  background;
+  transition-property: color;
   transition-duration: 0.35s;
   transition-timing-function: ease-in-out;
   border: 2px solid black;
@@ -112,19 +132,34 @@ font-family: monospace;
 padding: 0px;
 margin: 0px;
 list-style-type: none;
+text-decoration: none;
+text-decoration-line: none;
 
+
+}
+
+ul:visited {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+li.nav-links {
+  text-decoration: none;
+  
 }
 
 h1 {
   color: #feda6a;
   text-shadow: 2px 2px #000000;
   font-weight: bold;
-  margin: 5%;  
+  margin: 10px 10px 30px 10px;  
+  
 }
 
 h2 {
   text-shadow: 1px 1px #00000065;
   color: black;
+  margin: 10px
   /* padding-top: 15px; */
 
 }
@@ -154,13 +189,15 @@ h3 {
 h4 {
   color: white;
   margin: 0px;
+  
 }
 
 #about-me, #Skills {
+  display: block;
   text-align: center;
   border-left: 10px;
   border-right: 10px;
-  margin: auto;
+  margin-top: 30px;
   margin-bottom: 10px;
   /* padding: 20px; */
 }
@@ -171,20 +208,54 @@ display: flex-block;
 
 }
 
-.quizApp-iframe iframe{
-align-content: center;
-margin-bottom: 10px;
-width: 98%;
-max-width: 822px;
-
-}
-
 .BookmarkApp-iframe iframe{
 align-content: center;
 margin-bottom: 10px;
 width: 98%;
 max-width: 822px;
+margin-top: 10px;
 
 }
 
 
+/* section:nth-child(even) {
+  background-color: #ddd;
+} */
+
+/* .nav-links a {
+  display: inline-block;
+  color: #18CAE6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} */
+
+/* menu-container {
+  display: block;
+} */
+
+/* nav, */
+
+/* container-name, {
+ 
+} */
+/* button {
+  background: none;
+  border: none;
+  background: #272822;
+  font-family: monospace;
+  color: #A6E22E;
+} */
+
+/* .writtenBio {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+} */
+
+/* font colors that I like
+Deep Matte Grey: #393f4d
+#0b1b32
+
+d4d4dc
