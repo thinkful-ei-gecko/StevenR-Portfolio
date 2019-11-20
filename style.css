@@ -15,8 +15,8 @@ body {
   sans-serif;
   background-image: url("https://i.imgur.com/0NspiZu.jpg?1");
   background-position: center;
-  /* background-color: white; */
   max-width: auto;
+  text-align: center;
 }
 
 .menu-container {
@@ -51,10 +51,13 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: white;
-  /* text-shadow: 2px 2px #000000; */
+ 
   
 }
 
+a {
+  text-decoration: none;
+}
 
 p {
   display: inherit;
@@ -66,11 +69,22 @@ p {
   /* text-shadow: 2px 2px #000000; */
 }
 
-img {
-  margin-bottom: 20px;
-  border-radius: 100px;
+i {
+  color: black;
+  width: 40px;
+  font-size: large;
 }
 
+img {
+  
+  margin-bottom: 20px;
+  border-radius: 100px;
+  
+}
+
+ul.contact-info {
+  margin-bottom: 25px;
+}
 .container-flow {
   max-width: 700px;
   padding: 10px 10px;
@@ -118,7 +132,20 @@ font-family: monospace;
 padding: 0px;
 margin: 0px;
 list-style-type: none;
+text-decoration: none;
+text-decoration-line: none;
 
+
+}
+
+ul:visited {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+li.nav-links {
+  text-decoration: none;
+  
 }
 
 h1 {
@@ -162,6 +189,7 @@ h3 {
 h4 {
   color: white;
   margin: 0px;
+  
 }
 
 #about-me, #Skills {
@@ -169,7 +197,7 @@ h4 {
   text-align: center;
   border-left: 10px;
   border-right: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
   /* padding: 20px; */
 }
