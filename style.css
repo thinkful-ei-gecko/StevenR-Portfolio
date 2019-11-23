@@ -217,7 +217,13 @@ margin-top: 10px;
 
 }
 
-
+.spacedRepition-iframe iframe{
+align-content: center;
+margin-bottom: 10px;
+width: 98%;
+max-width: 822px;
+margin-top: 10px;
+}
 /* section:nth-child(even) {
   background-color: #ddd;
 } */
